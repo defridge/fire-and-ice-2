@@ -18,7 +18,7 @@ main {
 .navbar {
     padding: 0px;
     position: relative; /* Ensure the pseudo-element is positioned correctly */
-    background-image: url('/assets/images/nav.webp');
+    background-image: url('../images/nav.webp');
     background-size: cover;
     background-position: center;
     z-index: 1; /* Ensure content is above the pseudo-element */
@@ -92,7 +92,7 @@ main {
 
 .navbar {
     padding: 0px;
-    background-image: url('/assets/images/nav.webp');
+    background-image: url('../images/nav.webp');
     background-size: cover;
     background-position: center;
 }
