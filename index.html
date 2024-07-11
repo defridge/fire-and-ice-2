@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta Data -->
     <title>Fire and Ice Recovery</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicon-->
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -16,7 +19,8 @@
                 <a class="navbar-brand mx-auto" href="#">
                     <img src="assets/images/logo.webp" alt="Fire and Ice Recovery">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,31 +41,191 @@
                             <a class="nav-link" href="#">Testimonials</a>
                         </li>
                     </ul>
+                    <div class="ms-auto">
+                        <a href="#" class="btn btn-primary book-now-btn">Book Now</a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <h1>Hello World</h1>
+        <!-- Hero Section -->
+        <section id="hero" class="text-center text-white d-flex align-items-center justify-content-center"
+            style="background-image: url('/assets/images/nav.webp'); height: 100vh; background-size: cover; background-position: center;">
+            <div class="container">
+                <h1>Welcome to Fire and Ice Recovery</h1>
+                <p>Your journey to recovery starts here.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-5">
+            <div class="container text-center">
+                <h2>Our Services</h2>
+                <p>Discover the range of services we offer to help you recover.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Service 1</h3>
+                        <p>Brief description of service 1.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Service 2</h3>
+                        <p>Brief description of service 2.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Service 3</h3>
+                        <p>Brief description of service 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2>Benefits</h2>
+                <p>Understand the benefits of choosing Fire and Ice Recovery.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Benefit 1</h3>
+                        <p>Brief description of benefit 1.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Benefit 2</h3>
+                        <p>Brief description of benefit 2.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Benefit 3</h3>
+                        <p>Brief description of benefit 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                What will I need to bring?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We ask that everyone bring two towels, a small one to sit on in the sauna and one to dry
+                                yourself with. You will also need your bathing suits or trunks and a bottle of water to
+                                stay hydrated.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is there an age limit?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                The minimum age is 16 years old.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Is it safe?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Cold exposure and sauna are completely safe once done correctly and in a safe environment. We do recommend that
+                                everyone reads our waiver for all the relevant medical advice or contact your doctor before coming if you fall into
+                                any of the categories that would put you at risk.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What are the benefits? 
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Please read the benefits section of our website where you will find all the information you require.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2>Testimonials</h2>
+                <p>What our clients say about us.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <blockquote class="blockquote">
+                            <p>"Testimonial 1"</p>
+                            <footer class="blockquote-footer">Client 1</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-4">
+                        <blockquote class="blockquote">
+                            <p>"Testimonial 2"</p>
+                            <footer class="blockquote-footer">Client 2</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-4">
+                        <blockquote class="blockquote">
+                            <p>"Testimonial 3"</p>
+                            <footer class="blockquote-footer">Client 3</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="text-center bg-light text-dark py-4 mt-5">
+    <footer class="footer bg-dark text-white py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3 mb-md-0">
                     <h5>Contact Us</h5>
                     <ul class="list-unstyled">
-                        <li><strong>Address:</strong> 123 Recovery St., Example City, EX 12345</li>
-                        <li><strong>Phone:</strong> (123) 456-7890</li>
-                        <li><strong>Email:</strong> contact@example.com</li>
+                        <li><strong>Email:</strong> example@email.com</li>
+                        <li><strong>Phone Number:</strong> 123-456-7890</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Opening Times</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Tuesday & Thursdays:</strong> 6:00pm - 8:40pm</li>
+                        <li><strong>Saturday:</strong> 9:45am - 2:30pm</li>
+                        <li><strong>Sunday:</strong> 9:00am - 3:00pm</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h5>Opening Hours</h5>
+                    <h5>Address</h5>
                     <ul class="list-unstyled">
-                        <li><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</li>
-                        <li><strong>Saturday:</strong> 10:00 AM - 4:00 PM</li>
-                        <li><strong>Sunday:</strong> Closed</li>
+                        <li>Trinity Sports and Leisure Center</li>
+                        <li>The Hole in the Wall Road</li>
+                        <li>Donaghmede</li>
+                        <li>Dublin 13</li>
                     </ul>
                 </div>
             </div>
@@ -70,6 +234,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
