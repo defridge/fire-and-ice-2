@@ -140,13 +140,57 @@ main {
 }
 
 #faq .accordion-button.collapsed {
-    color: #007bff;
+    color: black;
     background-color: white; /* Ensures visibility of questions when collapsed */
 }
 
 #faq .accordion-body {
     background-color: #f8f9fa;
 }
+
+/* Benefits Section */
+#benefits .accordion-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#benefits .accordion-button:focus {
+    box-shadow: none;
+}
+
+#benefits .accordion-button:not(.collapsed) {
+    background-color: #0056b3;
+}
+
+#benefits .accordion-button.collapsed {
+    color: #007bff;
+    background-color: white; /* Ensures visibility of questions when collapsed */
+}
+
+#benefits .accordion-body {
+    background-color: #f8f9fa;
+}
+
+/* First Benefit Section (Sauna Benefits) */
+#benefits .accordion-item:first-child .accordion-button {
+    background-color: #ff0000;
+    color: white;
+}
+
+#benefits .accordion-item:first-child .accordion-button:focus {
+    box-shadow: none;
+}
+
+#benefits .accordion-item:first-child .accordion-button:not(.collapsed) {
+    background-color: #b30000;
+}
+
+#benefits .accordion-item:first-child .accordion-button.collapsed {
+    color: #ff0000;
+    background-color: white;
+}
+
+
 /* Testimonials Section */
 blockquote {
     border-left: 5px solid #007bff;
